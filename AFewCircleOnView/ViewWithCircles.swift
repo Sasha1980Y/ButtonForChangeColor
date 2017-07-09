@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol SendDataDelegate {
+protocol SendDataDelegate: class {
     func sendData(color: UIColor)
 }
 
@@ -21,29 +21,27 @@ class ViewWithCircles: UIView {
         return [button11, button12]
     }
     
+    var color: UIColor?
     
     
-    
-    var delegate: SendDataDelegate? 
+    weak var  delegate: SendDataDelegate?
     
     
     @IBAction func button11Tap(_ sender: ColorButton) {
-                
-        delegate?.sendData(color: sender.backgroundColor!)
         
-        if sender.titleLabel?.textColor == UIColor.white {
-            sender.titleLabel?.textColor = sender.backgroundColor
-            
-            
-        } else {
-            sender.titleLabel?.textColor = UIColor.white
-        }
+        
+        
+        
+        delegate?.sendData(color: sender.backgroundColor!)
         
         
     }
     
     
     @IBAction func exitButton(_ sender: Any) {
+        
+        
+        
         
         self.removeFromSuperview()
         

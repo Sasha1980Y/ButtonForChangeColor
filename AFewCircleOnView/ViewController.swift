@@ -23,10 +23,6 @@ class ViewController: UIViewController, SendDataDelegate {
         super.viewDidLoad()
         
          viewColors.delegate = self
-        for item in viewColors.buttons {
-            item?.titleLabel?.textColor = item?.backgroundColor
-        }
-        
         
     }
     
