@@ -8,22 +8,29 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIPopoverPresentationControllerDelegate {
+class ViewController: UIViewController, SendDataDelegate {
     
     
+    @IBOutlet weak var firstGoToButton: UIButton!
     let viewColors = ViewWithCircles.loadNib()
-    var color: UIColor?
+    var color: UIColor = UIColor.blue
 
+    
+    
+    var del: ViewWithCircles!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        //self.view.addSubview(viewColors)
-        
+         viewColors.delegate = self
+        for item in viewColors.buttons {
+            item?.titleLabel?.textColor = item?.backgroundColor
+        }
         
         
     }
-
+    
+    
     
     
     
@@ -71,45 +78,18 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
 
         
         
-        
+        viewColors.delegate = self
         
        
         
         
     }
     
-    /*
-     sender.horConstraint = NSLayoutConstraint(item: sender,
-     attribute: .left,
-     relatedBy: .equal ,
-     toItem: superview,
-     attribute: .left,
-     multiplier: 1.0,
-     constant: CGFloat(arc4random_uniform(UInt32(superview.frame.size.width)-UInt32(superview.frame.size.height * 0.1))))
-     sender.verConstraint = NSLayoutConstraint(item: sender,
-     attribute: .top,
-     relatedBy: .equal,
-     toItem: superview,
-     attribute: .top,
-     multiplier: 1.0,
-     constant: superview.frame.size.height * 0.1)
-     let widConstr = NSLayoutConstraint(item: sender,
-     attribute: .width,
-     relatedBy: .equal,
-     toItem: superview,
-     attribute: .width,
-     multiplier: 0.2,
-     constant: 0.0)
-     let heiConstr = NSLayoutConstraint(item: sender,
-     attribute: .height,
-     relatedBy: .equal,
-     toItem: superview,
-     attribute: .height,
-     multiplier: 0.1,
-     constant: 0.0)
-     superview.addConstraints([sender.horConstraint!  , sender.verConstraint!, widConstr, heiConstr])
-    */
-
-
+    func sendData(color: UIColor) {
+        
+        self.firstGoToButton.backgroundColor = color
+        print("Contr with 1 button")
+    }
+    
 }
 

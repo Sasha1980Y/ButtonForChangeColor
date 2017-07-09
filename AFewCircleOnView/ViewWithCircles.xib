@@ -29,10 +29,10 @@
                                             <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
                                             <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                             <state key="normal" title="Button">
-                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                             <connections>
-                                                <action selector="buttonTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="GbB-5N-Qwd"/>
+                                                <action selector="button11Tap:" destination="iN0-l3-epB" eventType="touchUpInside" id="DIf-io-ae2"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YOa-eb-M7N" customClass="ColorButton" customModule="AFewCircleOnView" customModuleProvider="target">
@@ -41,6 +41,9 @@
                                             <state key="normal" title="Button">
                                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
+                                            <connections>
+                                                <action selector="button11Tap:" destination="iN0-l3-epB" eventType="touchUpInside" id="Wxz-hS-qMP"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XiG-e3-SAd" customClass="ColorButton" customModule="AFewCircleOnView" customModuleProvider="target">
                                             <rect key="frame" x="114" y="0.0" width="46" height="30"/>
@@ -48,6 +51,9 @@
                                             <state key="normal" title="Button">
                                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
+                                            <connections>
+                                                <action selector="button11Tap:" destination="iN0-l3-epB" eventType="touchUpInside" id="6KP-nV-YEh"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="koz-3t-Drk" customClass="ColorButton" customModule="AFewCircleOnView" customModuleProvider="target">
                                             <rect key="frame" x="171" y="0.0" width="46" height="30"/>
@@ -55,6 +61,9 @@
                                             <state key="normal" title="Button">
                                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
+                                            <connections>
+                                                <action selector="button11Tap:" destination="iN0-l3-epB" eventType="touchUpInside" id="VkL-jX-HEf"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -68,6 +77,9 @@
                                             <state key="normal" title="Button">
                                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
+                                            <connections>
+                                                <action selector="button11Tap:" destination="iN0-l3-epB" eventType="touchUpInside" id="cyT-OM-IYV"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0pK-xF-FeR" customClass="ColorButton" customModule="AFewCircleOnView" customModuleProvider="target">
                                             <rect key="frame" x="57" y="0.0" width="46" height="30"/>
@@ -75,6 +87,9 @@
                                             <state key="normal" title="Button">
                                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
+                                            <connections>
+                                                <action selector="button11Tap:" destination="iN0-l3-epB" eventType="touchUpInside" id="i6R-8d-ky1"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A3O-PH-3TH" customClass="ColorButton" customModule="AFewCircleOnView" customModuleProvider="target">
                                             <rect key="frame" x="114" y="0.0" width="46" height="30"/>
@@ -82,6 +97,9 @@
                                             <state key="normal" title="Button">
                                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
+                                            <connections>
+                                                <action selector="button11Tap:" destination="iN0-l3-epB" eventType="touchUpInside" id="cU7-f6-yxj"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SL9-bg-FPy" customClass="ColorButton" customModule="AFewCircleOnView" customModuleProvider="target">
                                             <rect key="frame" x="171" y="0.0" width="46" height="30"/>
@@ -89,6 +107,9 @@
                                             <state key="normal" title="Button">
                                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
+                                            <connections>
+                                                <action selector="button11Tap:" destination="iN0-l3-epB" eventType="touchUpInside" id="9u7-D8-rUM"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                 </stackView>
@@ -101,6 +122,9 @@
                                             <state key="normal" title="Button">
                                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
+                                            <connections>
+                                                <action selector="button11Tap:" destination="iN0-l3-epB" eventType="touchUpInside" id="t5N-BQ-52Z"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SaJ-Nm-yIT" customClass="ColorButton" customModule="AFewCircleOnView" customModuleProvider="target">
                                             <rect key="frame" x="57" y="0.0" width="46" height="30"/>
@@ -108,6 +132,9 @@
                                             <state key="normal" title="Button">
                                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
+                                            <connections>
+                                                <action selector="button11Tap:" destination="iN0-l3-epB" eventType="touchUpInside" id="041-6S-p6S"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gkW-pX-dbH" customClass="ColorButton" customModule="AFewCircleOnView" customModuleProvider="target">
                                             <rect key="frame" x="114" y="0.0" width="46" height="30"/>
@@ -115,6 +142,9 @@
                                             <state key="normal" title="Button">
                                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
+                                            <connections>
+                                                <action selector="button11Tap:" destination="iN0-l3-epB" eventType="touchUpInside" id="xx6-r2-pha"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WiT-LU-6k7" customClass="ColorButton" customModule="AFewCircleOnView" customModuleProvider="target">
                                             <rect key="frame" x="171" y="0.0" width="46" height="30"/>
@@ -122,6 +152,9 @@
                                             <state key="normal" title="Button">
                                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
+                                            <connections>
+                                                <action selector="button11Tap:" destination="iN0-l3-epB" eventType="touchUpInside" id="Jc5-ZI-TMY"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                 </stackView>
@@ -134,6 +167,9 @@
                                             <state key="normal" title="Button">
                                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
+                                            <connections>
+                                                <action selector="button11Tap:" destination="iN0-l3-epB" eventType="touchUpInside" id="wC7-ma-yPs"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qXf-a8-ZFo" customClass="ColorButton" customModule="AFewCircleOnView" customModuleProvider="target">
                                             <rect key="frame" x="57" y="0.0" width="46" height="30"/>
@@ -141,6 +177,9 @@
                                             <state key="normal" title="Button">
                                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
+                                            <connections>
+                                                <action selector="button11Tap:" destination="iN0-l3-epB" eventType="touchUpInside" id="au9-ty-vfK"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgR-Yq-4FX" customClass="ColorButton" customModule="AFewCircleOnView" customModuleProvider="target">
                                             <rect key="frame" x="114" y="0.0" width="46" height="30"/>
@@ -148,6 +187,9 @@
                                             <state key="normal" title="Button">
                                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
+                                            <connections>
+                                                <action selector="button11Tap:" destination="iN0-l3-epB" eventType="touchUpInside" id="3nb-vd-gQe"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSd-vV-Oay" customClass="ColorButton" customModule="AFewCircleOnView" customModuleProvider="target">
                                             <rect key="frame" x="171" y="0.0" width="46" height="30"/>
@@ -155,6 +197,9 @@
                                             <state key="normal" title="Button">
                                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
+                                            <connections>
+                                                <action selector="button11Tap:" destination="iN0-l3-epB" eventType="touchUpInside" id="g8m-Qv-LCJ"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                 </stackView>
@@ -167,25 +212,29 @@
                                             <state key="normal" title="Button">
                                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
+                                            <connections>
+                                                <action selector="button11Tap:" destination="iN0-l3-epB" eventType="touchUpInside" id="eZY-JX-q4B"/>
+                                            </connections>
                                         </button>
-                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Lib-di-DYQ">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Hc-e2-9WW" customClass="ColorButton" customModule="AFewCircleOnView" customModuleProvider="target">
                                             <rect key="frame" x="57" y="0.0" width="46" height="30"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Hc-e2-9WW" customClass="ColorButton" customModule="AFewCircleOnView" customModuleProvider="target">
-                                                    <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
-                                                    <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="Button">
-                                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    </state>
-                                                </button>
-                                            </subviews>
-                                        </stackView>
+                                            <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                            <state key="normal" title="Button">
+                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="button11Tap:" destination="iN0-l3-epB" eventType="touchUpInside" id="cqg-vw-dVi"/>
+                                            </connections>
+                                        </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IjN-Lj-Jgn" customClass="ColorButton" customModule="AFewCircleOnView" customModuleProvider="target">
                                             <rect key="frame" x="114" y="0.0" width="46" height="30"/>
                                             <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                             <state key="normal" title="Button">
                                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
+                                            <connections>
+                                                <action selector="button11Tap:" destination="iN0-l3-epB" eventType="touchUpInside" id="EgM-Yb-2T7"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5W-Go-xMZ" customClass="ColorButton" customModule="AFewCircleOnView" customModuleProvider="target">
                                             <rect key="frame" x="171" y="0.0" width="46" height="30"/>
@@ -229,6 +278,10 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+            <connections>
+                <outlet property="button11" destination="Jck-H4-F69" id="nXn-5k-fAp"/>
+                <outlet property="button12" destination="YOa-eb-M7N" id="R4Y-ha-NLW"/>
+            </connections>
             <point key="canvasLocation" x="-42" y="-71.5"/>
         </view>
     </objects>

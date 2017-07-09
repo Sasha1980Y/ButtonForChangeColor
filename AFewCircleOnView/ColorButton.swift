@@ -37,13 +37,21 @@ class ColorButton: UIButton {
         //self.backgroundColor = UIColor.red
         self.addTarget(superview, action: #selector(tapPressed), for: .touchUpInside)
         self.setTitle("\u{2713}", for: .normal)
-        self.titleLabel?.textColor = UIColor.white
+        //self.titleLabel?.textColor = UIColor.white
+        
+        self.titleLabel?.textColor = self.backgroundColor
         //self.titleLabel?.font = UIFont(name: (self.titleLabel?.font.fontName)!, size: 20)
         
     }
     
     
     func tapPressed() {
+        if self.titleLabel?.textColor == UIColor.white {
+            self.titleLabel?.textColor = self.backgroundColor
+        } else {
+            self.titleLabel?.textColor = UIColor.white
+        }
+        
         print("Pressed")
     }
     
