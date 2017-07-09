@@ -8,9 +8,27 @@
 
 import UIKit
 
+protocol SendDataDelegate {
+    func sendData()
+}
+
 class ViewWithCircles: UIView {
 
     @IBOutlet weak var button11: ColorButton!
+    
+    
+    
+    @IBAction func buttonTap(_ sender: Any) {
+        
+      
+        
+    }
+    
+    
+    
+    
+    
+    
 
     @IBAction func exitButton(_ sender: Any) {
         

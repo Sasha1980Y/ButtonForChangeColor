@@ -12,7 +12,7 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
     
     
     let viewColors = ViewWithCircles.loadNib()
-    
+    var color: UIColor?
 
     override func viewDidLoad() {
         super.viewDidLoad()
